@@ -189,3 +189,77 @@
 //   }
 //   console.log(i);
 // }
+
+
+
+//Lesson 16
+
+// let num = 20;
+
+// function showFirstMessage(text) {
+//     console.log(text);
+//     let num = 10;
+//     console.log(num);
+// }
+
+// showFirstMessage('Hello World');
+// console.log(num);
+
+// function calc(a, b) {
+//     return (a + b);
+// }
+
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10, 6));
+
+// Function declaration
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+//Function expression 
+// const logger = function () {
+//     console.log('Hello World');
+// };
+
+// logger();
+
+// Стрелочная функция
+const calc = (a, b) => a + b;
+
+
+
+// Lesson 17
+
+
+const str = "teSt";
+
+// console.log(str[2]);
+// console.log(str[2] = 'd');
+// console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str);
+
+const fruit = "Some fruit";
+console.log(fruit.indexOf("fruit")); // поиск под строки
+
+const logg = "Hello World";
+
+// console.log(logg.slice(6, 11)); // до какого то момента не включая 
+console.log(logg.slice(-5, -1));
+
+// console.log(logg.substring(6, 11)); // не поддерживает отрицательные значения
+
+console.log(logg.substr(6, 5)); // второй аргумент указывает сколько символов отрезать
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12.2px";
+// console.log(parseInt(test));
+console.log(parseFloat(test));
