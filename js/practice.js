@@ -1,15 +1,6 @@
 "use strict";
 // != не ровно, str.length проверить длину строк
 
-// const a = prompt('Один из последних просмотренных фильмов?', ''),
-//   b = prompt('На сколько оцените его?', ''),
-//   c = prompt('Один из последних просмотренных фильмов?', ''),
-//   d = prompt('На сколько оцените его?', '');
-
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
-
-
 // First
 
 // let i = 0;
@@ -34,7 +25,8 @@
 // while (i < 1) {
 //   const a = prompt('Один из последних просмотренных фильмов?', ''),
 //     b = +prompt('На сколько оцените его?', '');
-//   (a != null && b != null && a != '' && b != '' && a.length < 50) ? personalMovieDB.movies[a] = b : i--, console.log('Error');
+//   (a != null && b != null && a != '' && b != '' && a.length < 50) ? 
+//   personalMovieDB.movies[a] = b : i--, console.log('Error');
 //   i++;
 // }
 
@@ -92,7 +84,7 @@ function rememberMyFilms() {
   }
 }
 
-// rememberMyFilms();
+rememberMyFilms();
 
 function detectPersonalLevel() {
   if (personalMovieDB.count < 10) {
